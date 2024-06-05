@@ -1,0 +1,74 @@
+/* estiloReservas.css */
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo para el formulario */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el formulario horizontalmente */
+  width: 100%; /* Asegura que el formulario ocupe todo el ancho del contenedor */
+}
+
+/* Estilo para los labels e inputs */
+.form-container label {
+  width: 100%; /* Asegura que los labels ocupen todo el ancho del contenedor */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea el texto del label a la izquierda */
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; /* Asegura que el padding y border se incluyan en el ancho y alto */
+}
+
+/* Estilo para el botón de enviar */
+.submit-button {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el enlace de volver */
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
