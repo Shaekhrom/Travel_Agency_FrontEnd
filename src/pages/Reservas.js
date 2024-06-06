@@ -70,7 +70,7 @@ function Reservas() {
   return (
     <div className="container">
       <h1 className="title">Reservas</h1>
-      <p>Esta es la página de reservas dentro del proyecto.</p>
+      <p>Aqui puedes ver y gestionar las reservas.</p>
       {error && <p>{error}</p>} {/* Mostrar el mensaje de error si está presente */}
       <form className="form-container" onSubmit={handleSubmit}>
         <label>
